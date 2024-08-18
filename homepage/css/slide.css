@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.container{
+    max-width: 1200px;
+    width:95%;
+
+}
+.slide-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+.slide-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+.slide-wrapper .image-list .image-item{
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+
+
+}
+
+.container.slider-scrollbar{
+    height: 24px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+
+.slide-scrollbar .scrollbar-track{
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+    border-radius: 4px;
+
+
+}
+.slide-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+.slide-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    border-radius: inherit;
+    cursor: grab;
+
+}
+
+.slide-scrollbar .scrollbar-thumb:active{
+    cursor:grabbing;
+    height: 8px;
+    top: -2px;
+
+}
+
+.slide-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+
+}
+

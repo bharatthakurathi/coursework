@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Yugal</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/welcome1_css.css">
+    <!-- <link rel="stylesheet" href="css/yugal.css"> -->
+    <style>
+        #body{
+    background-color: thistle;
+}
+.language-selector {
+  display: inline-block; /* Make it flow horizontally with other links */
+  margin-left: 10px;  /* Add spacing from previous link */
+  background-color: white;
+  padding: 5px 5px; /* Adjust padding for better alignment */
+  border: 1px transparent; /* Add a subtle border for separation */
+  border-radius: 150px; /* Add rounded corners */
+  
+}
+
+.language-selector select {
+  /* Remove default styles and adjust for better alignment */
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold; /* Make selected language stand out */
+}
+.centered-button{
+  border-radius: 150px;
+  background-color: rgb(15, 195, 15);
+
+}
+.logo{
+  font-family: 'Georgia', serif;
+font-size: 3em;
+font-weight: bold;
+color: #fff;
+text-shadow: 6px 6px 6px #07d00b;
+letter-spacing: 2px;
+border-radius: 150px;
+background-blend-mode: saturation;
+margin-left: 0;
+
+}
+.header{
+  border-top-style: dotted;
+  display: flex;
+  align-items: center;
+}
+.logo_lo{
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+
+.nav-links a {
+margin-right: 10px;
+text-decoration: none;
+color: black;
+}
+
+.article {
+text-align: center;
+}
+
+.featured {
+margin-top: 20px;
+}
+
+.featured ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.featured ul li {
+width: 220px;
+background: white;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+text-align: center;
+}
+
+.featured ul li a {
+display: block;
+margin-bottom: 10px;
+}
+
+.featured ul li img {
+width: 100%;
+height: auto;
+border-radius: 4px;
+}
+
+.featured ul li b {
+display: block;
+font-size: 18px;
+margin-bottom: 10px;
+color: #000;
+}
+
+.featured ul li p {
+font-size: 12px;
+color: #464646;
+line-height: 1.5;
+}
+
+.featured ul li p a {
+color: #464646;
+text-decoration: underline;
+}
+
+.featured ul li p a:hover {
+color: #252525;
+}
+
+.reviews {
+margin-top: 40px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.reviews img {
+width: 150px;
+height: auto;
+border-radius: 50%;
+}
+
+.reviews h3 {
+font-size: 24px;
+color: #000;
+}
+
+.reviews p {
+font-size: 14px;
+color: #464646;
+line-height: 1.5;
+}
+
+.section {
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+}
+
+.article {
+width: 98%;
+background: antiquewhite;
+font-family: cursive;
+color: #000;
+}
+
+.newsletter {
+width: 35%;
+text-align: center;
+}
+
+.newsletter img {
+width: 100px;
+height: auto;
+border-radius: 50%;
+}
+
+.footer {
+background: #333;
+color: white;
+padding: 10px 20px;
+text-align: center;
+}
+
+.footer-links a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+
+.footer-bottom {
+margin-top: 10px;
+}
+
+.icon-bar a {
+display: block;
+padding: -2px;
+color: white;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+.icon-bar a:hover {
+background: #c5f605;
+}
+    </style>
+	<!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+</head>
+
+<body style="background-color: fuchsia;">
+	<header class="header">
+		<img src="images/couple-having-an-online-dating-free-vector.ico" class="logo_lo">
+		<div class="logo" data-key="logo"  >Yu<span style="font-size: 40px; color: gold;">Gal</span></div>
+		<nav class="nav-links">
+		  <a href="index.html" class="nav-link" data-key="about">Home </a>
+		  <a href="index.html" class="nav-link" data-key="contact">Features  </a>
+		  <a href="index.html" class="nav-link" data-key="contact">About us  </a>
+		  <!-- <a href="index.html" class="nav-link" data-key="contact">Testimonials </a> -->
+		  <!-- <a href="index.html" class="nav-link" data-key="contact">Blog </a> -->
+		  <a href="index.html" class="nav-link" data-key="contact">Contact </a>
+
+		  <span class="language-selector" style="color: #ddd !important;">
+			<label for="language">Language:</label>
+			<select id="language" name="language" onchange="changeLanguage()">
+			  <option value="en" selected>English</option>
+			  <option value="ne">नेपाली</option>
+			  <option value="es">Español</option>
+			  <option value="fr">Français</option>
+			  <option value="de">Deutsch</option>
+			  <option value="zh">中文</option>
+			  <option value="hi">हिन्दी</option>
+			
+			</select>
+		  </span>
+		 
+		  <a href="log_in.html" class="language-selector" data-key="login">Join Now</a>
+		</nav>
+	  </header>
+
+	  
+	 
+	  <script src="js/language.js"></script>
+	
+	
+	  <script>
+		function toggleLanguageSelector() {
+		  const languageSelector = document.querySelector('.language-selector');
+		  languageSelector.classList.toggle('active'); 
+		}
+		</script>
+	
+	
+		<div class="article">
+			<img src="images/datingsitesover40.jpg" alt="">
+			<h1 style="color: #000;">Real People, Real Connections, Real Love</h1>
+		</div>
+	</div>
+    <div id="body">
+        <div class="featured">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="images/yugal0.png" alt=""></a>
+                    <b>"Find the One Who Completes Your Heart"</b>
+                    <p>Explore a world of meaningful connections and discover the person who truly understands you. Start your journey today and embrace the love story you've always dreamed of.</p>
+                </li>
+                <li>
+                    <a href="index.html"><img src="images/yugal1.png" alt=""></a>
+                    <b>Start Your New Love Story Today</b>
+                    <p>"Start your new love story today and unlock endless possibilities for genuine connections. Join our community and find the partner who complements your heart and soul."</p>
+                </li>
+                <li>
+                    <a href="first_webpage.html"><img src="images/yugal2.png" alt=""></a>
+                    <b>Safe, Secure, and Full of Love</b>
+                    <p>"Experience a dating platform where your safety and security are our top priorities. Join us to find authentic, loving relationships in a trusted environment."</p>
+                </li>
+                <li>
+                    <a href="first_webpage.html"><img src="images/images1234.jpg" alt=""></a>
+                    <b>Celebrate Your Unique Journey to Love</b>
+                    <p>"Every love story is unique, and yours is no exception. Embrace the adventure and find someone who cherishes you for exactly who you are."</p>
+                </li>
+            </ul>
+        </div>
+        <div class="reviews">
+            <img src="images/nischal_dai.jpeg" alt="">
+            <div>
+                <h3>Join a Community Where Love Thrives</h3>
+                <p>This app changed my life! I met my perfect match within a few weeks of signing up. The features are great and the people are wonderful.</p>
+				<p>Join now and find your perfect match!</p>
+            </div>
+        </div>
+       
+        </div>
+
+	<footer class="footer">
+		
+		<div id="footer-links">
+			<div class="connect" >
+				
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="icon-bar">
+	
+  <a href="https://www.facebook.com/login" class="facebook"><i class="fa fa-facebook">acebook</i></a><br>
+  <a href="https://twitter.com/login" class="twitter">Tw<i class="fa fa-twitter">itter</i></a><br>
+  <a href="https://accounts.google.com/signin" class="google"><i class="fa fa-google">oogle</i></a><br>
+  <a href="https://www.linkedin.com/login" class="linkedin">L <i class="fa fa-linkedin">Kedin</i></a><br>
+  <a href="https://www.youtube.com/login" class="youtube">Yo<i class="fa fa-youtube">tube</i></a><br>
+	
+</div>
+        <div class="footer">
+            <div class="follow-us">
+                <p>Follow @Yugal</p><br>
+				<p>
+					&copy; copyright 2024 | all rights reserved.
+				</p>
+				
+			</div>
+            </div>
+           
+        </div>
+        <div class="footer-links">
+            <a href="#">FAQ</a> |
+            <a href="#">Events</a> |
+            <a href="#">Contact Us</a> |
+            <a href="#">Guidelines</a> |
+            <a href="#">Careers</a> |
+            <a href="#">Investors</a> |
+            <a href="#">Modern Slavery Act Statement</a> |
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Yugal | All Rights Reserved</p>
+        </div>
+		</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+.vh-100 {
+	min-height: 100vh;
+}
+.w-400 {
+	width: 400px;
+}
+.fs-xs {
+	font-size: 1rem;
+}
+.w-10 {
+	width: 10%;
+}
+a {
+	text-decoration: none;
+}
+.fs-big {
+	font-size: 5rem !important;
+}
+.online {
+	width: 10px;
+	height: 10px;
+	background: green;
+	border-radius: 50%;
+}
+.w-15 {
+	width: 25%;
+}
+.fs-sm {
+	font-size: 1.8rem;
+}
+small {
+	color: #bbb;
+	font-size: 0.7rem;
+	text-align: right;
+}
+.chat-box {
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 50vh;
+	
+}
+.rtext {
+	width: 100%;
+	background: #f8f9fa;
+	color: #444;
+}
+
+.ltext {
+	width: 65%;
+	background: #3289c8;
+	color: #fff;
+}
+/* width */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #3289c8;
+}
+
+textarea {
+	resize: auto;
+	font-size: 20px !important;
+}
+
+/*message_status*/
+
+
+body {
+    margin: 0;
+    /* font-family: var(--bs-font-sans-serif); */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
